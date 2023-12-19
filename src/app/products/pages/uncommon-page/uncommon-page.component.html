@@ -16,8 +16,8 @@
   <div class="col-12 md:col-6">
     <p-fieldset legend="i18nPlural Pipe" [toggleable]="true">
       <p>Actualmente {{ clients.length | i18nPlural : clientsMap }}</p>
+      <p-button (click)="deleteClient()" label="Borrar cliente"></p-button>
     </p-fieldset>
-    <p-button (click)="deleteClient()" label="Borrar cliente"></p-button>
   </div>
 
   <div class="col-12 md:col-6">
@@ -34,11 +34,19 @@
   </div>
 
   <div class="col-12 md:col-6">
-    <p-fieldset legend="Json Pipe" [toggleable]="true"> </p-fieldset>
+    <p-fieldset legend="Json Pipe" [toggleable]="true">
+      {{ person | json }}
+    </p-fieldset>
   </div>
 
   <div class="col-12 md:col-6">
-    <p-fieldset legend="KeyValue Pipe" [toggleable]="true"> </p-fieldset>
+    <p-fieldset legend="KeyValue Pipe" [toggleable]="true">
+      <ul>
+        <li *ngFor="let item of person | keyvalue">
+          <b>{{ item.key | titlecase }}:</b>{{ item.value }}
+        </li>
+      </ul>
+    </p-fieldset>
   </div>
 
   <div class="col-12 md:col-6">
