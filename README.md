@@ -1,27 +1,18 @@
 # PipesAppAngular
+Este proyecto se centra en la implementación y comprensión de diversos conceptos clave relacionados con Angular y PrimeNG. La interfaz gráfica se mejora con el uso del paquete de componentes PrimeNG, que proporciona funcionalidades avanzadas y estilos elegantes para mejorar la apariencia y la funcionalidad de las aplicaciones Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+## Características Principales
+- i18nSelect: Utilización de la directiva i18nSelect para manejar internacionalización y traducciones en la aplicación.
+- i18Plural: Implementación de la directiva i18Plural para gestionar adecuadamente las traducciones en situaciones plurales.
+- KeyValue: Uso de KeyValue Pipe para transformar objetos clave-valor y facilitar su presentación en la interfaz de usuario.
+- Json: Manipulación y presentación de datos JSON en la aplicación Angular.
+- Async: Trabajo con operaciones asíncronas para mejorar la eficiencia y la capacidad de respuesta de la aplicación.
+- PrimeNG Module: Integración de un módulo especializado para trabajar con los componentes PrimeNG.
+## Contenido de la Sección
+La sección PrimeNG aborda varios temas fundamentales para aprovechar al máximo este conjunto de componentes:
 
-## Development server
+- Pipes personalizados: Creación y uso de pipes personalizados para adaptar los datos según las necesidades de presentación.
+- Argumentos hacia los Pipes: Exploración de cómo pasar argumentos a los pipes para personalizar su comportamiento.
+- SortableTable manual y usando PrimeNg: Implementación de tablas ordenables tanto de forma manual como aprovechando las capacidades de PrimeNG.
+Aunque esta sección puede ser breve, es esencial para comprender los conceptos básicos y estar preparado para expandir el uso de PrimeNG en futuras secciones del proyecto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
