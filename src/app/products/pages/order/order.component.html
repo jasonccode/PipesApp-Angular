@@ -1,5 +1,5 @@
 <p-panel header="Pipes personalizados" class="p-1">
-  <p>Pipes personalizados - creados por {{ "nosotros" | toggleCase : true }}</p>
+  <p>Pipes personalizados - creados por {{ "nosotros" | toggleCase : isUpperCase }}</p>
 </p-panel>
 
 <p-toolbar>
@@ -12,8 +12,9 @@
       label="Por nombre"
       icon="pi pi-sort"
       styleClass="p-button-success"
+      (click)="toogleUpperCase()"
     ></p-button>
-    
+
     <p-button
       class="mr-2"
       label="Por volar"
@@ -27,6 +28,5 @@
       icon="pi pi-sort"
       styleClass="p-button-help"
     ></p-button>
-
   </div>
 </p-toolbar>
