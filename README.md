@@ -9,7 +9,7 @@ Este proyecto se centra en la implementación y comprensión de diversos concept
 - Async: Trabajo con operaciones asíncronas para mejorar la eficiencia y la capacidad de respuesta de la aplicación.
 - PrimeNG Module: Integración de un módulo especializado para trabajar con los componentes PrimeNG.
 ## Contenido de la Sección
-La sección PrimeNG aborda varios temas fundamentales para aprovechar al máximo este conjunto de componentes:
+Con PrimeNG se aborda varios temas fundamentales para aprovechar al máximo este conjunto de componentes:
 
 - Pipes personalizados: Creación y uso de pipes personalizados para adaptar los datos según las necesidades de presentación.
 - Argumentos hacia los Pipes: Exploración de cómo pasar argumentos a los pipes para personalizar su comportamiento.
